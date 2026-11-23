@@ -1,0 +1,163 @@
+{
+  "$schema" : "https:\/\/schema.linearmouse.app\/0.11.4",
+  "schemes" : [
+    {
+      "if" : {
+        "device" : {
+          "category" : "mouse",
+          "productID" : "0x12",
+          "productName" : "GYRO",
+          "serialNumber" : "0000A2CF7926418A",
+          "vendorID" : "0x32c2"
+        }
+      },
+      "pointer" : {
+        "acceleration" : 0.7,
+        "disableAcceleration" : true
+      },
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 1
+        },
+        "distance" : {
+          "vertical" : "auto"
+        },
+        "reverse" : {
+          "vertical" : false
+        },
+        "smoothed" : {
+          "vertical" : {
+            "acceleration" : 1.1,
+            "bouncing" : true,
+            "enabled" : true,
+            "inertia" : 0.74,
+            "preset" : "easeInOut",
+            "response" : 0.68,
+            "speed" : 1.02
+          }
+        },
+        "speed" : {
+          "vertical" : 0
+        }
+      }
+    },
+    {
+      "if" : {
+        "device" : {
+          "category" : "mouse",
+          "productID" : "0x12",
+          "productName" : "2.4G Wireless Receiver",
+          "vendorID" : "0x32c2"
+        }
+      },
+      "pointer" : {
+        "acceleration" : 0.6,
+        "disableAcceleration" : true
+      },
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 1
+        },
+        "distance" : {
+          "vertical" : "auto"
+        },
+        "reverse" : {
+          "vertical" : true
+        },
+        "smoothed" : {
+          "vertical" : {
+            "acceleration" : 1.1,
+            "bouncing" : true,
+            "enabled" : true,
+            "inertia" : 0.74,
+            "preset" : "easeInOut",
+            "response" : 0.68,
+            "speed" : 1.02
+          }
+        },
+        "speed" : {
+          "vertical" : 0
+        }
+      }
+    },
+    {
+      "buttons" : {
+        "gesture" : {
+          "actions" : {
+            "down" : "appExpose",
+            "left" : "missionControl.spaceRight",
+            "right" : "missionControl.spaceLeft",
+            "up" : "missionControl"
+          },
+          "enabled" : true,
+          "threshold" : 50,
+          "trigger" : {
+            "button" : 2,
+            "command" : false,
+            "control" : false,
+            "option" : false,
+            "shift" : false
+          }
+        }
+      },
+      "if" : {
+        "device" : {
+          "category" : "mouse",
+          "productID" : "0xc547",
+          "productName" : "USB Receiver",
+          "vendorID" : "0x46d"
+        }
+      },
+      "pointer" : {
+        "acceleration" : 0.8,
+        "disableAcceleration" : true
+      },
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 1
+        },
+        "distance" : {
+          "vertical" : 3
+        },
+        "reverse" : {
+          "vertical" : true
+        },
+        "smoothed" : {
+          "vertical" : {
+            "enabled" : false
+          }
+        },
+        "speed" : {
+          "vertical" : 0
+        }
+      }
+    },
+    {
+      "if" : {
+        "app" : "org.prismlauncher.PrismLauncher",
+        "device" : {
+          "category" : "mouse",
+          "productID" : "0xc547",
+          "productName" : "USB Receiver",
+          "vendorID" : "0x46d"
+        }
+      },
+      "scrolling" : {
+        "acceleration" : {
+          "vertical" : 1
+        },
+        "distance" : {
+          "vertical" : 3
+        },
+        "smoothed" : {
+          "vertical" : {
+            "enabled" : false
+          }
+        },
+        "speed" : {
+          "vertical" : 0
+        }
+      }
+    }
+  ]
+}
